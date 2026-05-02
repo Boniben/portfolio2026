@@ -1,0 +1,18 @@
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# XAMPP / PHP
+*.log
+/error_log
+
+# Fichiers temporaires
+*.tmp
+*.bak

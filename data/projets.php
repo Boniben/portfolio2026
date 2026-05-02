@@ -1,0 +1,82 @@
+<?php
+return [
+    [
+        'id'           => 'easycleanesat',
+        'titre'        => 'EasyCleanESAT',
+        'contexte'     => 'Projet collaboratif – BTS SIO',
+        'description'  => 'Application métier de génération de fiches chantier pour l\'ESAT de Domfront. Développée en méthode Agile (Scrum) avec 4 développeurs. Couvre l\'analyse du SI, la modélisation, l\'organisation projet et la gestion des versions.',
+        'technologies' => ['Symfony', 'PHP', 'MySQL', 'GitHub', 'Scrum'],
+        'url'          => 'http://localhost/easycleanesat/public/',
+        'github'       => 'https://github.com/Boniben/easycleanesat',
+        'preuves'      => [
+            'Diagramme de cas d\'utilisation',
+            'Backlog / User Stories',
+            'Captures GitHub (branches, pull requests)',
+            'Tableau de bord projet',
+        ],
+    ],
+    [
+        'id'           => 'portfolio-builder',
+        'titre'        => 'PortfolioBuilder',
+        'contexte'     => 'Projet scolaire – BTS SIO',
+        'description'  => 'Application Spring Boot avec authentification et gestion des habilitations (rôles ADMIN / USER). Illustre la sécurisation d\'un service numérique.',
+        'technologies' => ['Java', 'Spring Boot', 'Spring Security', 'Maven'],
+        'url'          => 'http://localhost:8080',
+        'preuves'      => [
+            'Captures de l\'interface de connexion',
+            'Captures des accès différenciés ADMIN / USER',
+            'Extraits du code Spring Security',
+        ],
+    ],
+    [
+        'id'           => 'testdriven',
+        'titre'        => 'TestDriven',
+        'contexte'     => 'Projet scolaire – BTS SIO',
+        'description'  => 'Projet Java illustrant la démarche de développement piloté par les tests (TDD). Tests unitaires ciblés pour valider les méthodes et sécuriser les évolutions.',
+        'technologies' => ['Java', 'JUnit', 'Eclipse'],
+        'url'          => '',
+        'preuves'      => [
+            'Captures des tests unitaires (JUnit)',
+            'Rapport de couverture de tests',
+        ],
+    ],
+    [
+        'id'           => 'excel-fiches',
+        'titre'        => 'Mini-logiciel Excel – Fiches d\'intervention',
+        'contexte'     => 'Mise à disposition utilisateurs – ESAT',
+        'description'  => 'Outil Excel de génération automatique de fiches chantier. Conçu et déployé auprès des utilisateurs de l\'ESAT avec procédure d\'utilisation et formation individualisée.',
+        'technologies' => ['Excel', 'VBA'],
+        'url'          => '',
+        'preuves'      => [
+            'Capture du fichier Excel (menu, saisie, fiche finale)',
+            'Procédure d\'utilisation à destination des collègues',
+            'Procédure de maintenance / mise à jour',
+        ],
+    ],
+    [
+        'id'           => 'communication',
+        'titre'        => 'Communication – Valorisation de l\'ESAT',
+        'contexte'     => 'Processus support – ESAT',
+        'description'  => 'Participation à la stratégie de communication LinkedIn du directeur de l\'ESAT. Analyse des cibles, rédaction de contenus, respect du droit à l\'image (vote interne + consentements écrits).',
+        'technologies' => ['LinkedIn'],
+        'url'          => 'https://www.linkedin.com/in/franck-antier-5a827a367/',
+        'preuves'      => [
+            'Analyse de la communication LinkedIn du directeur',
+            'Recueil des droits à l\'image (consentements signés)',
+            'Compte-rendu de la réunion de vote du personnel',
+        ],
+    ],
+    [
+        'id'           => 'formation',
+        'titre'        => 'Développement de compétences',
+        'contexte'     => 'Formation continue',
+        'description'  => 'Veille technologique et formation continue : certification SecNumAcadémie (cybersécurité), parcours OpenClassrooms, approfondissement Access/VBA, veille via flux RSS et Feedly.',
+        'technologies' => ['SecNumAcadémie', 'OpenClassrooms', 'Feedly', 'VBA'],
+        'url'          => '',
+        'preuves'      => [
+            'Certificat SecNumAcadémie',
+            'Attestations OpenClassrooms',
+            'Captures flux RSS / Feedly',
+        ],
+    ],
+];

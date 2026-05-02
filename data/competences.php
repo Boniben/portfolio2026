@@ -1,0 +1,56 @@
+<?php
+return [
+    'C1' => [
+        'label' => 'Gestion du patrimoine informatique',
+        'competences' => [
+            ['ref' => 'C1.1', 'label' => 'Recensement et identification des ressources numériques',                              'projets' => []],
+            ['ref' => 'C1.2', 'label' => 'Exploitation des référentiels, normes et standards adoptés par le prestataire',       'projets' => []],
+            ['ref' => 'C1.3', 'label' => 'Mise en place et vérification des niveaux d\'habilitation associés à un service',     'projets' => ['portfolio-builder']],
+            ['ref' => 'C1.4', 'label' => 'Vérification des conditions de la continuité d\'un service informatique',             'projets' => []],
+            ['ref' => 'C1.5', 'label' => 'Gestion des sauvegardes',                                                             'projets' => []],
+            ['ref' => 'C1.6', 'label' => 'Vérification du respect des règles d\'utilisation des ressources numériques',         'projets' => []],
+        ],
+    ],
+    'C2' => [
+        'label' => 'Réponse aux incidents et aux demandes d\'assistance et d\'évolution',
+        'competences' => [
+            ['ref' => 'C2.1', 'label' => 'Collecte, suivi et orientation des demandes',                                         'projets' => []],
+            ['ref' => 'C2.2', 'label' => 'Traitement des demandes concernant les applicatifs, services réseau et système',      'projets' => []],
+            ['ref' => 'C2.3', 'label' => 'Traitement des demandes concernant les applications',                                 'projets' => ['excel-fiches']],
+        ],
+    ],
+    'C3' => [
+        'label' => 'Développement de la présence en ligne de l\'organisation',
+        'competences' => [
+            ['ref' => 'C3.1', 'label' => 'Participation à la valorisation de l\'image de l\'organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques', 'projets' => ['communication']],
+            ['ref' => 'C3.2', 'label' => 'Référencement des services en ligne de l\'organisation et mesure de leur visibilité', 'projets' => []],
+            ['ref' => 'C3.3', 'label' => 'Participation à l\'évolution d\'un site Web exploitant les données de l\'organisation', 'projets' => []],
+        ],
+    ],
+    'C4' => [
+        'label' => 'Travail en mode projet',
+        'competences' => [
+            ['ref' => 'C4.1', 'label' => 'Analyse des objectifs et des modalités d\'organisation d\'un projet',                 'projets' => []],
+            ['ref' => 'C4.2', 'label' => 'Planification des activités',                                                         'projets' => ['easycleanesat']],
+            ['ref' => 'C4.3', 'label' => 'Évaluation des indicateurs de suivi d\'un projet et analyse des écarts',             'projets' => []],
+        ],
+    ],
+    'C5' => [
+        'label' => 'Mise à disposition des utilisateurs d\'un service informatique',
+        'competences' => [
+            ['ref' => 'C5.1', 'label' => 'Test d\'intégration et d\'acceptation d\'un service',                                 'projets' => ['testdriven']],
+            ['ref' => 'C5.2', 'label' => 'Déploiement d\'un service',                                                           'projets' => []],
+            ['ref' => 'C5.3', 'label' => 'Accompagnement des utilisateurs dans la mise en place d\'un service',                 'projets' => []],
+        ],
+    ],
+    'C6' => [
+        'label' => 'Organisation de son développement professionnel',
+        'competences' => [
+            ['ref' => 'C6.1', 'label' => 'Mise en place de son environnement d\'apprentissage personnel',                      'projets' => ['formation']],
+            ['ref' => 'C6.2', 'label' => 'Mise en œuvre d\'outils et de stratégie de veille informationnelle',                 'projets' => []],
+            ['ref' => 'C6.3', 'label' => 'Gestion de son identité professionnelle',                                             'projets' => []],
+            ['ref' => 'C6.4', 'label' => 'Développement de son projet professionnel',                                           'projets' => []],
+        ],
+    ],
+];
+// Niveaux : 0=Non présenté, 1=Débutant, 2=Basique, 3=Intermédiaire, 4=Avancé, 5=Expert
