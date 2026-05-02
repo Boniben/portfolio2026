@@ -13,6 +13,7 @@ return [
             'Backlog / User Stories',
             'Captures GitHub (branches, pull requests)',
             'Tableau de bord projet',
+            'Présentation du projet (Projet ESAT v6)',
         ],
     ],
     [

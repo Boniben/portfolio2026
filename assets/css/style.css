@@ -89,6 +89,7 @@ img { max-width: 100%; }
 .landing-desc { color: var(--text-muted); margin-bottom: 2rem; }
 .landing-logos { display: flex; justify-content: center; align-items: center; gap: 3rem; margin-top: 2.5rem; flex-wrap: wrap; }
 .landing-logos img { max-height: 80px; max-width: 200px; object-fit: contain; opacity: 0.85; }
+.landing-actions { display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
 
 /* ===== Hero (À propos) ===== */
 .hero {

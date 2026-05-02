@@ -74,6 +74,10 @@ function renderHome() {
                 <img src="documents/autres/anais.png" alt="Fondation ANAIS">
                 <img src="documents/autres/caensup.png" alt="Caen Sup">
             </div>
+            <div class="landing-actions">
+                <a href="documents/easycleanesat/Projet%20ESAT%20v6.pptx" target="_blank" class="btn btn-primary">&#128221; Présentation EasyCleanESAT</a>
+                <a href="#projets" class="btn btn-outline">Voir tous les projets</a>
+            </div>
         </section>
     `);
 }
