@@ -5,7 +5,7 @@
     "contexte": "Projet collaboratif – BTS SIO",
     "description": "Application métier de génération de fiches chantier pour l'ESAT de Domfront. Développée en méthode Agile (Scrum) avec 4 développeurs. Couvre l'analyse du SI, la modélisation, l'organisation projet et la gestion des versions.",
     "technologies": ["Symfony", "PHP", "MySQL", "GitHub", "Scrum"],
-    "url": "http://projet1-srv1-vm-22111.sts-sio-caen.info/",
+    "url": "http://srv1-vm-22111.sts-sio-caen.info/index.php/",
     "github": "https://github.com/Boniben/easycleanesat",
     "preuves": [
       "Diagramme de cas d'utilisation",
