@@ -12,7 +12,9 @@
       "Backlog / User Stories",
       "Captures GitHub (branches, pull requests)",
       "Tableau de bord projet",
-      "Présentation du projet (Projet ESAT v6)"
+      "Présentation du projet (Projet ESAT v6)",
+      "Procédure de déploiement sur VM",
+      "Procédure de déploiement (version revue)"
     ],
     "fichiers": [
       "MCD Projet EsayCleanESAT V5.png",
@@ -20,7 +22,9 @@
       "Projet ESAT v6.pptx",
       "projet easyclean branches.png",
       "projet easycleanesat github project .png",
-      "projet entreprise informatisation contrainte moyen.pdf"
+      "projet entreprise informatisation contrainte moyen.pdf",
+      "Procédure deploiement sur VM d'une application web.pdf",
+      "Procédure deploiement sur VM (V IA).pdf"
     ]
   },
   {
