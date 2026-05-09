@@ -49,23 +49,6 @@
     ]
   },
   {
-    "id": "testdriven",
-    "titre": "TestDriven",
-    "contexte": "Projet scolaire – BTS SIO",
-    "description": "Projet Java illustrant la démarche de développement piloté par les tests (TDD). Tests unitaires ciblés pour valider les méthodes et sécuriser les évolutions.",
-    "technologies": ["Java", "JUnit", "Eclipse"],
-    "url": "",
-    "github": "",
-    "preuves": [
-      "Captures des tests unitaires (JUnit)",
-      "Rapport de couverture de tests"
-    ],
-    "fichiers": [
-      "projet Testdriven Test 2.png",
-      "Projet Testdriven, Test certification.png"
-    ]
-  },
-  {
     "id": "excel-fiches",
     "titre": "Mini-logiciel Excel – Fiches d'intervention",
     "contexte": "Mise à disposition utilisateurs – ESAT",

@@ -37,8 +37,8 @@
   "C5": {
     "label": "Mise à disposition des utilisateurs d'un service informatique",
     "competences": [
-      { "ref": "C5.1", "label": "Test d'intégration et d'acceptation d'un service", "projets": ["testdriven"] },
-      { "ref": "C5.2", "label": "Déploiement d'un service", "projets": [] },
+      { "ref": "C5.1", "label": "Test d'intégration et d'acceptation d'un service", "projets": [] },
+      { "ref": "C5.2", "label": "Déploiement d'un service", "projets": ["easycleanesat"] },
       { "ref": "C5.3", "label": "Accompagnement des utilisateurs dans la mise en place d'un service", "projets": [] }
     ]
   },
