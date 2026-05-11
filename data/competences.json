@@ -23,7 +23,7 @@
     "competences": [
       { "ref": "C3.1", "label": "Participation à la valorisation de l'image de l'organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques", "projets": ["communication"] },
       { "ref": "C3.2", "label": "Référencement des services en ligne de l'organisation et mesure de leur visibilité", "projets": [] },
-      { "ref": "C3.3", "label": "Participation à l'évolution d'un site Web exploitant les données de l'organisation", "projets": [] }
+      { "ref": "C3.3", "label": "Participation à l'évolution d'un site Web exploitant les données de l'organisation", "projets": ["portfolio-builder"] }
     ]
   },
   "C4": {
