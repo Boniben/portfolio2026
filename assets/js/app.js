@@ -79,6 +79,17 @@ function renderHome() {
                 <a href="#projets" class="btn btn-outline">Voir tous les projets</a>
             </div>
         </section>
+        <section class="tableau-synthese-banner">
+            <div class="tableau-synthese-card">
+                <div class="tableau-synthese-icon">&#128196;</div>
+                <div class="tableau-synthese-text">
+                    <strong>Tableau de synthèse — Épreuve E5</strong>
+                    <span>BTS SIO SLAM &mdash; Session 2026 &mdash; BONIFACE Benjamin</span>
+                </div>
+                <a href="documents/autres/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026.pdf" target="_blank" class="btn btn-primary">Ouvrir le tableau</a>
+                <a href="documents/autres/BTS_SIO_Annexe_VI.5_Epreuve%20E5%20-%20Tableau%20de%20synthe_se_2026.pdf" download class="btn btn-secondary">Télécharger</a>
+            </div>
+        </section>
     `);
 }
 

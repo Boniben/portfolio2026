@@ -91,6 +91,27 @@ img { max-width: 100%; }
 .landing-logos img { max-height: 80px; max-width: 200px; object-fit: contain; opacity: 0.85; }
 .landing-actions { display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
 
+/* ===== Tableau de synthèse (accueil) ===== */
+.tableau-synthese-banner { margin-top: 1rem; }
+.tableau-synthese-card {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius);
+    padding: 1.25rem 1.75rem;
+    box-shadow: 0 4px 16px rgba(58,95,71,0.25);
+    flex-wrap: wrap;
+}
+.tableau-synthese-icon { font-size: 2rem; flex-shrink: 0; }
+.tableau-synthese-text { flex: 1; min-width: 200px; }
+.tableau-synthese-text strong { display: block; font-size: 1.05rem; margin-bottom: 0.2rem; }
+.tableau-synthese-text span { font-size: 0.85rem; opacity: 0.85; }
+.tableau-synthese-card .btn-primary { background: white; color: var(--primary); }
+.tableau-synthese-card .btn-primary:hover { background: var(--bg); }
+.tableau-synthese-card .btn-secondary { background: var(--accent); color: white; border: 1px solid rgba(255,255,255,0.3); }
+
 /* ===== Hero (À propos) ===== */
 .hero {
     display: flex;
