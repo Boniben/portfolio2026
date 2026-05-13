@@ -296,7 +296,22 @@ function renderDocuments(anchor) {
 function renderContact() {
     setContent(`
         <section class="page-section contact-section">
-            <h2 class="page-title">Contact</h2>
+            <h2 class="page-title">Informations personnelles</h2>
+
+            <div class="cv-banner card">
+                <div class="cv-banner-text">
+                    <span class="cv-banner-icon">&#128196;</span>
+                    <div>
+                        <strong>Curriculum Vitae</strong>
+                        <span>Benjamin Boniface — BTS SIO SLAM 2025/2026</span>
+                    </div>
+                </div>
+                <div class="cv-banner-actions">
+                    <a href="documents/autres/Benjamin%20Boniface-Cv%20portfolio%20E5.pdf" target="_blank" class="btn btn-primary">Ouvrir</a>
+                    <a href="documents/autres/Benjamin%20Boniface-Cv%20portfolio%20E5.pdf" download class="btn btn-secondary">Télécharger</a>
+                </div>
+            </div>
+
             <div class="contact-card card">
                 <div class="contact-info">
                     <div class="contact-item">
