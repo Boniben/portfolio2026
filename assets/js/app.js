@@ -116,6 +116,8 @@ function renderApropos() {
                 <div class="hero-actions">
                     <a href="#projets" class="btn btn-primary">Voir mes projets</a>
                     <a href="#documents" class="btn btn-secondary">Documents E5</a>
+                    <a href="documents/autres/Benjamin%20Boniface-Cv%20portfolio%20E5.pdf" target="_blank" class="btn btn-outline">&#128196; Mon CV</a>
+                    <a href="https://www.linkedin.com/in/benjamin-boniface-7a7b6313b/" target="_blank" class="btn btn-outline">&#128101; LinkedIn</a>
                 </div>
             </div>
         </section>
