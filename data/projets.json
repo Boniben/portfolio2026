@@ -25,7 +25,13 @@
       "projet entreprise informatisation contrainte moyen.pdf",
       "Procédure deploiement sur VM d'une application web.pdf",
       "Procédure deploiement sur VM (V IA).pdf"
-    ]
+    ],
+    "fichiers_competences": {
+      "projet easyclean branches.png": "C4.2",
+      "projet easycleanesat github project .png": "C4.2",
+      "Procédure deploiement sur VM d'une application web.pdf": "C5.2",
+      "Procédure deploiement sur VM (V IA).pdf": "C5.2"
+    }
   },
   {
     "id": "portfolio-builder",
@@ -50,7 +56,18 @@
       "DbUserService.java",
       "ProfileController.java",
       "UserController.java"
-    ]
+    ],
+    "fichiers_competences": {
+      "Projet portefoliobuilder fomulaire d'authentification.png": "C1.3",
+      "Projet portefoliobuilder acces sans authentification.png": "C1.3",
+      "Projet portefoliobuilder connextion comme user.png": "C1.3",
+      "Projet portefoliobuilder acces admin.png": "C1.3",
+      "SecurityConfig.java": "C1.3",
+      "User.java": "C1.3",
+      "DbUserService.java": "C1.3",
+      "ProfileController.java": "C3.2",
+      "UserController.java": "C3.2"
+    }
   },
   {
     "id": "excel-fiches",
@@ -74,7 +91,17 @@
       "Logiciel création fiche d'intervention couloir acces vestiaire (formation).xlsm",
       "Présentation du logiciel EDL.pdf",
       "Procédure mise à jour projet EDL.pdf"
-    ]
+    ],
+    "fichiers_competences": {
+      "projet excel menu.png": "C2.3",
+      "projet excel entrée donnée client.png": "C2.3",
+      "projet excel creation image chantier.png": "C2.3",
+      "projet excel outil selection actions.png": "C2.3",
+      "projet excel vue final fiche intervention.png": "C2.3",
+      "Logiciel création fiche d'intervention couloir acces vestiaire (formation).xlsm": "C2.3",
+      "Présentation du logiciel EDL.pdf": "C5.3",
+      "Procédure mise à jour projet EDL.pdf": "C2.3"
+    }
   },
   {
     "id": "communication",
@@ -91,7 +118,10 @@
     ],
     "fichiers": [
       "analyse_linkedin_franck_antier.pdf"
-    ]
+    ],
+    "fichiers_competences": {
+      "analyse_linkedin_franck_antier.pdf": "C3.1"
+    }
   },
   {
     "id": "formation",
@@ -112,6 +142,13 @@
       "formation python.png",
       "fondamentaux VBA preuve.png",
       "formaiton IA.png"
-    ]
+    ],
+    "fichiers_competences": {
+      "Attestation secnum cyber Benjamin Boniface.pdf": "C6.1",
+      "2026-02-10_challenge-ctf-passe-ton-hack-explorateur-cybersecurite-fr.pdf": "C6.1",
+      "formation python.png": "C6.1",
+      "fondamentaux VBA preuve.png": "C6.1",
+      "formaiton IA.png": "C6.1"
+    }
   }
 ]

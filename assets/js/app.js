@@ -206,6 +206,14 @@ function renderDocuments(anchor) {
     const EXTS_CODE = ['java', 'php', 'js', 'ts', 'html', 'css', 'xml', 'yml', 'yaml', 'json', 'properties', 'sql'];
     const ICONES    = { pdf: '&#128196;', java: '&#9749;', xlsm: '&#128200;', xlsx: '&#128200;', pptx: '&#128221;', docx: '&#128196;' };
 
+    // Index ref → label depuis les compétences
+    const compLabels = {};
+    for (const bloc of Object.values(COMPETENCES)) {
+        for (const comp of bloc.competences) {
+            compLabels[comp.ref] = comp.label;
+        }
+    }
+
     let html = `
         <section class="page-section">
             <h2 class="page-title">Documents de preuve</h2>
@@ -240,11 +248,15 @@ function renderDocuments(anchor) {
                 const fileId = `${p.id}-${i}`;
                 const url    = `documents/${p.id}/${encodeURIComponent(fichier)}`;
 
+                const compRef   = (p.fichiers_competences || {})[fichier];
+                const compLabel = compRef ? compLabels[compRef] : null;
+
                 html += `<div class="card doc-card" id="doc-${fileId}">
                     <div class="doc-header">
                         <span class="doc-icon">${icone}</span>
                         <span class="doc-name">${esc(fichier)}</span>
                     </div>
+                    ${compRef ? `<div class="doc-comp-badge"><span class="doc-comp-ref">${esc(compRef)}</span> ${compLabel ? esc(compLabel) : ''}</div>` : ''}
                     <div class="doc-actions">`;
 
                 if (isCode) {
